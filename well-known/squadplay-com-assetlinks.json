@@ -1,0 +1,15 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.eysamarin.squadplay",
+      "sha256_cert_fingerprints": [
+        "6A:C7:D0:0B:03:0C:8F:90:78:E9:BE:20:52:C0:90:DE:7C:2D:41:B2:79:7D:AE:E3:72:1C:88:F6:12:9B:05:72",
+        "70:3C:DE:01:FA:CC:60:CF:4B:AE:C5:8E:E4:9D:10:B2:34:90:56:55:B5:8D:C6:36:63:EA:A1:B3:69:B0:3E:A7"
+      ]
+    }
+  }
+]
