@@ -91,16 +91,16 @@ Right to Erasure: In certain circumstances, you have the right to request the de
 personal information.
 Right to Object: You have the right to object to the processing of your personal information for 
 certain purposes.
-To exercise any of these rights, please contact us at the email address provided in the "Contact 
+To exercise any of these rights, please contact me at the email address provided in the "Contact 
 Information" section.
 
 
  7. Children's Privacy
 
-My App is not intended for use by children under the age of 13. Developer do not knowingly collect 
-personal information from children under the age of 13. If you are a parent or guardian and believe 
-that your child has provided us with personal information, please contact me, and Developer will take 
-steps to delete that information.
+App is designed for a general audience and Developer do not knowingly direct his services or
+specifically collect personal information from children under the age of 13. If you are a parent or
+guardian and believe that your child has provided personal information, please contact me,
+and I will take steps to delete that information.
 
 
  8. Changes to This Privacy Policy
