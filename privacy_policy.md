@@ -97,8 +97,8 @@ Information" section.
 
  7. Children's Privacy
 
-My App is not intended for use by children under the age of 14. Developer do not knowingly collect 
-personal information from children under the age of 14. If you are a parent or guardian and believe 
+My App is not intended for use by children under the age of 13. Developer do not knowingly collect 
+personal information from children under the age of 13. If you are a parent or guardian and believe 
 that your child has provided us with personal information, please contact me, and Developer will take 
 steps to delete that information.
 
