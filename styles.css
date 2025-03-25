@@ -1,0 +1,80 @@
+body {
+    background-color: #DFC327;
+    color: #111111;
+    font-family: Arial, sans-serif;
+}
+
+/* region links*/
+a:link {
+    color: #111111;
+}
+a:visited {
+    color: #111111;
+}
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+/* endregion */
+
+/* region images */
+.appLogo {
+    height: 500px;
+}
+.googlePlayImage {
+    width: 200px;
+}
+.appIcon {
+}
+/* endregion */
+
+/* region layout */
+.appIconBlock {
+    width: 100%;
+    align-items: center;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+
+.block {
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.block:last-child {
+    width: 60%;
+}
+
+.footer {
+    color: #111111;
+    padding: 10px 0;
+    text-align: center;
+}
+/* endregion */
+
+/* region buttons */
+.googlePlayButton {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.googlePlayButton:hover {
+    opacity: 0.8;
+}
+
+.googlePlayButton:focus {
+    outline: none;
+    box-shadow: 0 0 10px #111111;
+    border-radius: 10px;
+}
+
+.googlePlayButton img {
+    display: block;
+}
+/* endregion */

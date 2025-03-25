@@ -4,16 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Greeting</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<header>
-    <h1>Welcome!</h1>
-</header>
 <main>
-    <p>Privacy policy of SquadPlay application: <a href="privacy_policy.md">Privacy Policy</a></p>
+    <div class="container">
+        <div class="block">
+            <img src="assets/phone_asset.png" class="appLogo" alt="application rendered on mobile"/>
+        </div>
+        <div class="block">
+            <div class="appIconBlock">
+                <img src="assets/app_icon.svg" class="appIcon" alt="app icon"/>
+            </div>
+
+            <h1>SquadPlay</h1>
+            <div>
+                Application to organise game sessions with friends.
+            </div>
+            <br />
+            <p>Here you can read our privacy policy: <a href="privacy_policy.md">Privacy Policy</a></p>
+            <p>To fully delete your data, please fill out the form via the link: <a href="#">Delete personal info</a></p>
+            <h2>Install the app</h2>
+            <button class="googlePlayButton">
+                <img src="assets/GetItOnGooglePlay.png" alt="Get it on google play" class="googlePlayImage"/>
+            </button>
+        </div>
+    </div>
 </main>
-<footer>
-    <p>&copy; 2025 Welcome Page</p>
+<footer class="footer">
+    <div>&copy; 2025</div>
 </footer>
 </body>
 </html>
