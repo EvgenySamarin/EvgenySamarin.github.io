@@ -4,10 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Greeting</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <header>
-    <h1>Welcome!</h1>
+    <div class="logo">
+        <h1>Request Personal Data Deletion</h1>
+    </div>
+
+    <p>Please fill out the form below to request the deletion of your personal data.</p>
+    <form id="deletionForm" action="/api/delete-data" method="POST">
+        <div class="column">
+            <label for="identifier">Email Address or Username:</label>
+            <input type="text" placeholder="Email" id="identifier" name="identifier" required>
+            <small>Please provide the email associated with your account.</small>
+        </div>
+
+        <div class="column">
+            <label for="reason">Reason for Deletion (Optional):</label>
+            <textarea id="reason" name="reason" rows="4" placeholder="You can optionally provide a reason for your request."></textarea>
+        </div>
+
+        <div class="warning row">
+            <input type="checkbox" id="confirmation" name="confirmation" required>
+            <label for="confirmation">I understand that this action is permanent and will result in the deletion of my personal data.</label>
+        </div>
+
+        <div class="column">
+            <button type="submit" class="uppercase-text">Submit Deletion Request</button>
+        </div>
+    </form>
 </header>
 <main>
 </main>

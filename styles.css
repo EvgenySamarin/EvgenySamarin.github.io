@@ -4,6 +4,35 @@ body {
     font-family: Arial, sans-serif;
 }
 
+/* region typography */
+.uppercase-text {
+    text-transform: uppercase;
+}
+/* endregion */
+
+/* region alert box */
+.error{
+    color: white;
+    background-color: #DB3A22;
+    padding: 10px;
+}
+.warning{
+    color: white;
+    background-color: #FC9405;
+    padding: 10px;
+}
+.success{
+    color: white;
+    background-color: #1CAA55;
+    padding: 10px;
+}
+.info{
+    color: white;
+    background-color: #2078D1;
+    padding: 10px;
+}
+/* endregion */
+
 /* region links*/
 a:link {
     color: #111111;
@@ -39,16 +68,25 @@ a:hover {
     display: inline-flex;
     justify-content: space-evenly;
 }
-
+.column {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0 10px;
+    align-items: stretch;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 10px 10px;
+    gap: 10px;
+}
 .block {
     padding: 20px;
     box-sizing: border-box;
 }
-
 .block:last-child {
     width: 60%;
 }
-
 .footer {
     color: #111111;
     padding: 10px 0;
@@ -78,3 +116,16 @@ a:hover {
     display: block;
 }
 /* endregion */
+
+/* region spec types */
+#deletionForm {
+    padding: 20px;
+    max-width: 500px;
+}
+
+#deletionForm button {
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+}
+/* endregion*/
