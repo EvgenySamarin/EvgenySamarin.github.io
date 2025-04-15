@@ -118,6 +118,10 @@ a:hover {
 /* endregion */
 
 /* region spec types */
+iframe {
+    border: none; /* Or border: 0; */
+}
+
 #deletionForm {
     padding: 20px;
     max-width: 500px;

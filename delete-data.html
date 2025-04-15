@@ -9,31 +9,14 @@
 <body>
 <header>
     <div class="logo">
-        <h1>Request Personal Data Deletion</h1>
+        <h1>Personal Data Deletion</h1>
     </div>
 
     <p>Please fill out the form below to request the deletion of your personal data.</p>
-    <form id="deletionForm" action="/api/delete-data" method="POST">
-        <div class="column">
-            <label for="identifier">Email Address or Username:</label>
-            <input type="text" placeholder="Email" id="identifier" name="identifier" required>
-            <small>Please provide the email associated with your account.</small>
-        </div>
-
-        <div class="column">
-            <label for="reason">Reason for Deletion (Optional):</label>
-            <textarea id="reason" name="reason" rows="4" placeholder="You can optionally provide a reason for your request."></textarea>
-        </div>
-
-        <div class="warning row">
-            <input type="checkbox" id="confirmation" name="confirmation" required>
-            <label for="confirmation">I understand that this action is permanent and will result in the deletion of my personal data.</label>
-        </div>
-
-        <div class="column">
-            <button type="submit" class="uppercase-text">Submit Deletion Request</button>
-        </div>
-    </form>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScb_VAUM1PPH6MwmWLi08cUSov0wNrM9YytnvF-dwhPJmtS_g/viewform?embedded=true"
+            width="640" height="1044">
+        Loading...
+    </iframe>
 </header>
 <main>
 </main>
